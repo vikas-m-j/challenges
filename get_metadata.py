@@ -3,7 +3,6 @@ import json
 
 metadata_url = 'http://169.254.169.254/latest/'
 
-
 def expand_tree(url, arr):
     output = {}
     for item in arr:
